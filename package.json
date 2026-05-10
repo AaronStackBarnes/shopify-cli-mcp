@@ -1,0 +1,44 @@
+{
+  "name": "@gbrlxvii/shopify-cli-mcp",
+  "version": "0.3.0",
+  "description": "MCP server that wraps the Shopify CLI for AI-powered app and theme development",
+  "type": "module",
+  "main": "dist/index.js",
+  "bin": {
+    "shopify-cli-mcp": "./dist/index.js"
+  },
+  "scripts": {
+    "build": "tsc",
+    "dev": "tsc --watch",
+    "start": "node dist/index.js",
+    "lint": "eslint src/",
+    "typecheck": "tsc --noEmit"
+  },
+  "keywords": [
+    "shopify",
+    "cli",
+    "mcp",
+    "model-context-protocol",
+    "ai",
+    "development",
+    "shopify-app",
+    "shopify-theme"
+  ],
+  "author": "Gabriel Reeves <gabriel@meridiancommerce.dev>",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/gbrlxvii/shopify-cli-mcp"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.12.0",
+    "zod": "^3.24.0"
+  },
+  "devDependencies": {
+    "@types/node": "^22.0.0",
+    "typescript": "^5.7.0"
+  }
+}
