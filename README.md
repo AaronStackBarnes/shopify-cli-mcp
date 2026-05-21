@@ -25,7 +25,7 @@ Add to your project's `.mcp.json`:
   "mcpServers": {
     "shopify": {
       "command": "npx",
-      "args": ["-y", "@gbrlxvii/shopify-cli-mcp"]
+      "args": ["-y", "@AaronStackBarnes/shopify-cli-mcp"]
     }
   }
 }
@@ -39,7 +39,7 @@ Add to your MCP settings:
 {
   "shopify-cli": {
     "command": "npx",
-    "args": ["-y", "@gbrlxvii/shopify-cli-mcp"]
+    "args": ["-y", "@AaronStackBarnes/shopify-cli-mcp"]
   }
 }
 ```
@@ -117,7 +117,7 @@ Push my theme changes but ignore the config/ directory
 ## Development
 
 ```bash
-git clone https://github.com/gbrlxvii/shopify-cli-mcp.git
+git clone https://github.com/AaronStackBarnes/shopify-cli-mcp.git
 cd shopify-cli-mcp
 npm install
 npm run build

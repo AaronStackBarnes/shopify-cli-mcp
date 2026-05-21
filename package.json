@@ -1,5 +1,5 @@
 {
-  "name": "@gbrlxvii/shopify-cli-mcp",
+  "name": "@aaronstack/shopify-cli-mcp",
   "version": "0.3.0",
   "description": "MCP server that wraps the Shopify CLI for AI-powered app and theme development",
   "type": "module",
@@ -24,11 +24,11 @@
     "shopify-app",
     "shopify-theme"
   ],
-  "author": "Gabriel Reeves <gabriel@aaronstack.com>",
+  "author": "Aaron Stack <me@aaronstack.com>",
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/gbrlxvii/shopify-cli-mcp"
+    "url": "https://github.com/AaronStackBarnes/shopify-cli-mcp"
   },
   "engines": {
     "node": ">=18.0.0"
